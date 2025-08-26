@@ -1,0 +1,10 @@
+Package: RMotionAI
+Type: Package
+Title: Client for Motion API
+Version: 0.0.1
+Authors@R: person("Auto", "GPT", email = "auto@example.com", role = c("aut", "cre"))
+Description: Provides functions to interact with the Motion API.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports: httr, data.table, jsonlite
