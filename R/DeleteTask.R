@@ -6,6 +6,7 @@
 #' @param TaskId Identifier of the task to delete.
 #'
 #' @return data.table with deletion confirmation.
+#' @family tasks
 #' @export
 DeleteTask <- function(Token, TaskId) {
     Endpoint <- paste0("/tasks/", TaskId)

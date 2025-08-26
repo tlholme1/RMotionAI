@@ -7,6 +7,7 @@
 #' @param Project List describing project fields to update.
 #'
 #' @return data.table with the updated project.
+#' @family projects
 #' @export
 UpdateProject <- function(Token, ProjectId, Project) {
     Endpoint <- paste0("/projects/", ProjectId)
