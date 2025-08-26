@@ -7,6 +7,7 @@
 #' @param Task List describing task fields to update.
 #'
 #' @return data.table with the updated task.
+#' @family tasks
 #' @export
 UpdateTask <- function(Token, TaskId, Task) {
     Endpoint <- paste0("/tasks/", TaskId)

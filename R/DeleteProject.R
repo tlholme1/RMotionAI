@@ -6,6 +6,7 @@
 #' @param ProjectId Identifier of the project to delete.
 #'
 #' @return data.table with deletion confirmation.
+#' @family projects
 #' @export
 DeleteProject <- function(Token, ProjectId) {
     Endpoint <- paste0("/projects/", ProjectId)

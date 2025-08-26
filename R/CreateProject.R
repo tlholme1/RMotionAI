@@ -6,6 +6,7 @@
 #' @param Project List describing the project fields.
 #'
 #' @return data.table with the created project.
+#' @family projects
 #' @export
 CreateProject <- function(Token, Project) {
     Result <- .PerformRequest("POST", "/projects", Token, Body = Project)

@@ -5,6 +5,7 @@
 #' @param Endpoint Character string specifying the API endpoint path.
 #'
 #' @return A character string containing the full URL.
+#' @family utilities
 #' @keywords internal
 .BuildUrl <- function(Endpoint) {
     BaseUrl <- "https://api.usemotion.com/v1"
