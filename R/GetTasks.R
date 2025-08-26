@@ -6,6 +6,7 @@
 #' @param Query Optional list of query parameters.
 #'
 #' @return data.table of tasks.
+#' @family tasks
 #' @export
 GetTasks <- function(Token, Query = NULL) {
     Result <- .PerformRequest("GET", "/tasks", Token, Query = Query)

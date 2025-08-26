@@ -1,0 +1,15 @@
+template:
+  bootstrap: 5
+reference:
+  - title: Projects
+    desc: Functions for interacting with Motion projects.
+    contents:
+      - '@family projects'
+  - title: Tasks
+    desc: Functions for interacting with Motion tasks.
+    contents:
+      - '@family tasks'
+  - title: Utilities
+    desc: Internal helpers used by the API client.
+    contents:
+      - '@family utilities'

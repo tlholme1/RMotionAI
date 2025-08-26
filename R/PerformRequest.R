@@ -9,6 +9,7 @@
 #' @param Query Optional list of query parameters.
 #'
 #' @return Parsed response object.
+#' @family utilities
 #' @keywords internal
 .PerformRequest <- function(Method, Endpoint, Token, Body = NULL, Query = NULL) {
     Url <- .BuildUrl(Endpoint)

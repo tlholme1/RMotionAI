@@ -5,6 +5,7 @@
 #' @param Response httr response object.
 #'
 #' @return Parsed content as a `data.table` or other R object.
+#' @family utilities
 #' @keywords internal
 .HandleResponse <- function(Response) {
     Content <- content(Response, as = "parsed", type = "application/json")
